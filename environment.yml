@@ -2,6 +2,7 @@ name: homlp
 channels:
   - conda-forge
   - nodefaults
+  - pytorch
 dependencies:
   - accelerate>=1.5 # used in chapters 14-18 with the Transformers library
   - box2d-py>=2.3 # used in chapter 19, exercise 8
